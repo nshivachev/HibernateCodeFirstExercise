@@ -4,6 +4,7 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/GringottsDatabase/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/SalesDatabase/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/UniversitySystem/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -13,6 +14,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="GringottsDatabase" />
         <module name="SalesDatabase" />
+        <module name="UniversitySystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
