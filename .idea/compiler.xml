@@ -5,6 +5,8 @@
       <directory url="file://$PROJECT_DIR$/GringottsDatabase/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/SalesDatabase/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/UniversitySystem/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/HospitalDatabase/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/BillsPaymentSystem/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -12,7 +14,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BillsPaymentSystem" />
         <module name="GringottsDatabase" />
+        <module name="HospitalDatabase" />
         <module name="SalesDatabase" />
         <module name="UniversitySystem" />
       </profile>
